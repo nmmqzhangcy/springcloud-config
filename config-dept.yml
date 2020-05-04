@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: test
+    active: dev
 
 ---
 server:
@@ -18,7 +18,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://localhost:3306/DB01?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/DB03?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
 
